@@ -1,0 +1,26 @@
+{
+  "name": "landingPage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "Patrick Fanella <fanella.patrick@gmail.com> (github.com/patrickfanella)",
+  "license": "MIT",
+  "dependencies": {
+    "@mailchimp/mailchimp_marketing": "^3.0.72",
+    "body-parser": "^1.19.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.15",
+    "path": "^0.12.7",
+    "request": "^2.88.2"
+  },
+  "engines": {
+    "node": "14.17.3",
+    "npm": "6.14.13"
+  }
+}
